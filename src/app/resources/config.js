@@ -5,7 +5,7 @@ const routes = {
   "/about": true,
   "/work": true,
   "/blog": true,
-  "/gallery": true,
+  "/gallery": false,
 };
 
 // Enable password protection on selected routes
@@ -16,8 +16,8 @@ const protectedRoutes = {
 
 const style = {
   theme: "dark", // dark | light
-  neutral: "slate", // sand | gray | slate
-  brand: "cyan", // blue | indigo | violet | magenta | pink | red | orange | yellow | moss | green | emerald | aqua | cyan
+  neutral: "sand", // sand | gray | slate
+  brand: "moss", // blue | indigo | violet | magenta | pink | red | orange | yellow | moss | green | emerald | aqua | cyan
   accent: "cyan", // blue | indigo | violet | magenta | pink | red | orange | yellow | moss | green | emerald | aqua | cyan
   solid: "contrast", // color | contrast
   solidStyle: "flat", // flat | plastic

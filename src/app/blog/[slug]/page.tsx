@@ -14,10 +14,12 @@ export async function generateStaticParams(): Promise<{ slug: string }[]> {
   }));
 }
 
-export async function generateMetadata({ params }: {
+export async function generateMetadata({
+  params,
+}: {
   params: Promise<{
     slug: string;
-  }>
+  }>;
 }) {
   const { slug } = await params;
   let post = getPosts(["src", "app", "blog", "posts"]).find((post) => post.slug === slug);
@@ -60,10 +62,12 @@ export async function generateMetadata({ params }: {
   };
 }
 
-export default async function Blog({ params }: {
+export default async function Blog({
+  params,
+}: {
   params: Promise<{
     slug: string;
-  }>
+  }>;
 }) {
   const { slug } = await params;
   let post = getPosts(["src", "app", "blog", "posts"]).find((post) => post.slug === slug);

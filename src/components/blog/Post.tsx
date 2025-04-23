@@ -52,7 +52,7 @@ export default function Post({ post, thumbnail }: PostProps) {
           {tags.length > 0 && (
             <Flex gap="8">
               {tags.map((tag: string, index: number) =>
-                index < 3 ? <Tag key={index} label={tag} variant="neutral" /> : null
+                index < 3 ? <Tag key={index} label={tag} variant="neutral" /> : null,
               )}
             </Flex>
           )}

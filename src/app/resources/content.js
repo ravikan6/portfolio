@@ -55,7 +55,8 @@ const home = {
   headline: <>Scaling Ideas into High-Performance Systems.</>,
   subline: (
     <>
-      I'm Ravikant Saini, a full-stack developer & founder of  <InlineCode>Nuvix</InlineCode>, where I build scalable, high-performance cloud solutions.
+      I'm Ravikant Saini, a full-stack developer & founder of <InlineCode>Nuvix</InlineCode>, where
+      I build scalable, high-performance cloud solutions.
       <br /> After hours, I explore AI, system design, and pushing tech to its limits.
     </>
   ),

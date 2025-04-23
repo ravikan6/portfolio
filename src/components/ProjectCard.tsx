@@ -1,14 +1,6 @@
 "use client";
 
-import {
-  AvatarGroup,
-  Carousel,
-  Column,
-  Flex,
-  Heading,
-  SmartLink,
-  Text,
-} from "@/ui/components";
+import { AvatarGroup, Carousel, Column, Flex, Heading, SmartLink, Text } from "@/ui/components";
 
 interface ProjectCardProps {
   href: string;

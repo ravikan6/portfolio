@@ -64,7 +64,7 @@ export async function generateMetadata({ params }: WorkParams) {
   };
 }
 
-export default async  function Project({ params }: WorkParams) {
+export default async function Project({ params }: WorkParams) {
   const { slug } = await params;
   let post = getPosts(["src", "app", "work", "projects"]).find((post) => post.slug === slug);
 
